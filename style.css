@@ -18,6 +18,6 @@ header button{white-space:nowrap;word-break:keep-all;line-height:1.2}
 .source-visual figure{margin:0}
 .source-visual img{display:block;width:100%;height:auto;background:#e8dfcf;border:1px solid var(--line)}
 .source-visual figcaption{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.7}
-.source-visual-single{max-width:560px;margin-left:auto;margin-right:auto}
+.source-visual-single{width:340px;max-width:80vw;margin:32px auto 12px;padding-top:18px}
 .source-visual-pair{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(260px,1fr);gap:28px;align-items:start}
-@media(max-width:760px){.source-visual-pair{grid-template-columns:1fr}.source-visual-single{max-width:100%}}
+@media(max-width:760px){.source-visual-pair{grid-template-columns:1fr}.source-visual-single{width:300px;max-width:82vw}}
