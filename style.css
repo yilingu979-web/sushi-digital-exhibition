@@ -14,3 +14,10 @@ header button{white-space:nowrap;word-break:keep-all;line-height:1.2}
   nav{order:3;width:100%;overflow-x:auto;overflow-y:hidden;white-space:nowrap;gap:24px;padding:2px 0 6px;scrollbar-width:thin}
   nav a{flex:0 0 auto}
 }
+.source-visual{margin:42px 0 16px;padding-top:24px;border-top:1px solid var(--line)}
+.source-visual figure{margin:0}
+.source-visual img{display:block;width:100%;height:auto;background:#e8dfcf;border:1px solid var(--line)}
+.source-visual figcaption{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.7}
+.source-visual-single{max-width:560px;margin-left:auto;margin-right:auto}
+.source-visual-pair{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(260px,1fr);gap:28px;align-items:start}
+@media(max-width:760px){.source-visual-pair{grid-template-columns:1fr}.source-visual-single{max-width:100%}}
