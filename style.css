@@ -21,3 +21,13 @@ header button{white-space:nowrap;word-break:keep-all;line-height:1.2}
 .source-visual-single{width:340px;max-width:80vw;margin:32px auto 12px;padding-top:18px}
 .source-visual-pair{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(260px,1fr);gap:28px;align-items:start}
 @media(max-width:760px){.source-visual-pair{grid-template-columns:1fr}.source-visual-single{width:300px;max-width:82vw}}
+.source-visual-hui{display:grid;grid-template-columns:minmax(220px,.36fr) minmax(0,1fr);gap:28px;align-items:start;max-width:920px;margin-left:auto;margin-right:auto}
+.source-visual-hui figure{min-width:0}
+.source-visual-hui img{height:360px;object-fit:contain;object-position:center}
+.source-visual-hui figcaption{font-size:12px;line-height:1.65}
+@media(max-width:760px){
+  .source-visual-hui{grid-template-columns:1fr;gap:24px;max-width:100%}
+  .source-visual-hui .hui-source-page{width:260px;max-width:78vw;margin:0 auto}
+  .source-visual-hui .hui-source-page img,
+  .source-visual-hui .hui-process-graphic img{height:auto}
+}
