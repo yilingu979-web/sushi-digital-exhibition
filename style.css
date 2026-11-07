@@ -25,6 +25,9 @@ header button{white-space:nowrap;word-break:keep-all;line-height:1.2}
 .source-visual-huang figure{min-width:0}
 .source-visual-huang img{height:330px;object-fit:contain;object-position:center}
 .source-visual-huang figcaption{font-size:12px;line-height:1.65}
+.huang-food-notes{margin:8px 0 0;padding-top:0;border-top:0;color:var(--muted);font-size:12px}
+.huang-food-notes summary{width:max-content;color:var(--red);text-decoration:underline;text-underline-offset:4px}
+.huang-food-notes p{margin:5px 0;line-height:1.7}
 @media(max-width:850px){
   .source-visual-huang{grid-template-columns:1fr;gap:24px;max-width:100%}
   .source-visual-huang .huang-source-page{width:260px;max-width:78vw;margin:0 auto}
